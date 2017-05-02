@@ -1,0 +1,28 @@
+{
+  "name": "livre-example",
+  "version": "0.0.0",
+  "description": "Example server setup for the Livre project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lcneves/livre-example.git"
+  },
+  "keywords": [
+    "Livre",
+    "example"
+  ],
+  "author": "Lucas Neves <lcneves@gmail.com> (https://www.lcneves.com)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/lcneves/livre-example/issues"
+  },
+  "homepage": "https://github.com/lcneves/livre-example#readme",
+  "dependencies": {
+    "config": "^1.25.1",
+    "livre-liberty": ">=0.0.1",
+    "livre-server": ">=0.0.0"
+  }
+}
