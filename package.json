@@ -1,5 +1,5 @@
 {
-  "name": "livre-example",
+  "name": "livre",
   "version": "0.0.1",
   "description": "Example server setup for the Livre project.",
   "main": "index.js",
