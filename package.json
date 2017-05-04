@@ -4,7 +4,8 @@
   "description": "Example server setup for the Livre project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint *.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +25,8 @@
     "config": "^1.25.1",
     "livre-liberty": ">=0.0.1",
     "livre-server": ">=0.0.0"
+  },
+  "devDependencies": {
+    "eslint": "latest"
   }
 }
