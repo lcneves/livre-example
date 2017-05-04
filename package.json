@@ -1,6 +1,6 @@
 {
   "name": "livre",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Example server setup for the Livre project.",
   "main": "index.js",
   "scripts": {
