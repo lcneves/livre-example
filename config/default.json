@@ -1,5 +1,16 @@
 {
   "config": {
-    "themes": ["liberty"]
+    "themes": [
+      {
+        "name": "liberty",
+        "route": "/",
+        "dirname": "livre-liberty"
+      },
+      {
+        "name": "liberty-flat",
+        "route": "/flat",
+        "dirname": "liberty-flat"
+      }
+    ]
   }
 }
