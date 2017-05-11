@@ -8,7 +8,12 @@
 
 'use strict';
 
-const config = require('config').get('config');
+const path = require('path');
+
+var config = require('config').get('config');
+
+config.themesDirectory = config.themesDirectory ||
+  path.join(__dirname, 'node_modules');
 
 require('livre-server')(config);
 

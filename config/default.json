@@ -3,13 +3,15 @@
     "themes": [
       {
         "name": "liberty",
-        "route": "/",
-        "dirname": "livre-liberty"
+        "subdomain": "3d",
+        "baseDirectory": "livre-liberty",
+        "publicDirectory": "resources"
       },
       {
         "name": "liberty-flat",
-        "route": "/flat",
-        "dirname": "liberty-flat"
+        "subdomain": "flat",
+        "baseDirectory": "liberty-flat",
+        "publicDirectory": "resources"
       }
     ]
   }
