@@ -4,14 +4,11 @@
       {
         "name": "liberty",
         "subdomain": "3d",
-        "baseDirectory": "livre-liberty",
-        "publicDirectory": "resources"
+        "baseDirectory": "livre-liberty"
       },
       {
         "name": "liberty-flat",
-        "subdomain": "flat",
-        "baseDirectory": "liberty-flat",
-        "publicDirectory": "resources"
+        "subdomain": "flat"
       }
     ]
   }
